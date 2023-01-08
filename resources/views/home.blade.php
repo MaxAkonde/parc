@@ -1,23 +1,45 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
+    <div class="row">
+        <div class="col-12">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
-
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Liste</h5>
+                </div>
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    {{ __('You are logged in!') }}
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <th>#</th>
+                                <th>Département</th>
+                                <th>Nom</th>
+                                <th>Prénom</th>
+                                <th>Téléphone</th>
+                                <th>Habitation</th>
+                                <th>Urgence</th>
+                                <th>Foyer</th>
+                                <th>Superficie</th>
+                            </thead>
+                            <tbody>
+                                @foreach ($infos as $info)
+                                    <tr>
+                                        <td>{{ $info->id }}</td>
+                                        <td>{{ $info->dpt }}</td>
+                                        <td>{{ $info->nom }}</td>
+                                        <td>{{ $info->prenom }}</td>
+                                        <td>{{ $info->mobile }}</td>
+                                        <td>{{ $info->habitation }}</td>
+                                        <td>{{ $info->urgence }}</td>
+                                        <td>{{ $info->foyer }}</td>
+                                        <td>{{ $info->superficie }}</td>
+                                    </tr>
+                                @endforeach
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 @endsection

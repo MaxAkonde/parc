@@ -13,7 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="{{ asset('adminkit/img/icons/icon-48x48.png') }}" />
 
-    <title>Blank Page | AdminKit Demo</title>
+    <title>Infos Page | Admin</title>
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link href="{{ asset('adminkit/css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -24,7 +27,7 @@
         <nav id="sidebar" class="sidebar js-sidebar">
             <div class="sidebar-content js-simplebar">
                 <a class="sidebar-brand" href="#">
-                    <span class="align-middle">AdminKit</span>
+                    <span class="align-middle">Admin</span>
                 </a>
 
                 <ul class="sidebar-nav">
@@ -34,7 +37,7 @@
 
                     <li class="sidebar-item active">
                         <a class="sidebar-link" href="#">
-                            <i class="align-middle" data-feather="book"></i> <span class="align-middle">Blank</span>
+                            <i class="align-middle" data-feather="book"></i> <span class="align-middle">Infos</span>
                         </a>
                     </li>
             </div>
@@ -63,7 +66,7 @@
                             <div class="dropdown-menu dropdown-menu-end">
                                 
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Log out</a>
+                                <a class="dropdown-item" href="#">Déconnexion</a>
                             </div>
                         </li>
                     </ul>
@@ -73,19 +76,9 @@
             <main class="content">
                 <div class="container-fluid p-0">
 
-                    <h1 class="h3 mb-3">Blank Page</h1>
+                    <h1 class="h3 mb-3">Infos</h1>
 
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 class="card-title mb-0">Empty card</h5>
-                                </div>
-                                <div class="card-body">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @yield('content')
 
                 </div>
             </main>

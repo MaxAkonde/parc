@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.html">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pompe à Chaleur 2023</title>
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/fontawesome.min.css">

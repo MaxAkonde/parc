@@ -11,6 +11,7 @@ $('.habitation-item').click(function () {
     }
     stateField();
 });
+
 $('.urgence-item').click(function () {
     $('.urgence-error').remove();
     var selected = $(this).val();
@@ -39,12 +40,12 @@ $('.step-next').click(function () {
 
     if (departement == 'AUCUN') {
         $('#departement').parent().before('<span class="error-msg text-danger font-weight-bold">Veuillez choisir votre département</span>');
-        $("html, body ").animate({scrollTop: 300}, "slow");
+        $("html, body ").animate({ scrollTop: 300 }, "slow");
         return;
     }
     if (!$('.habitation-item').is(':checked')) {
         $('.habitation-list').parent().before('<span class="error-msg text-danger font-weight-bold habitation-error">Veuillez choisir une option.</span>');
-        $("html, body ").animate({scrollTop: 360}, "slow");
+        $("html, body ").animate({ scrollTop: 360 }, "slow");
         return;
     }
 
@@ -187,21 +188,22 @@ $(".finish-form").click(function () {
         var tel = $('#phone').val();
         var mobile = $('#mobile').val();
 
+        var token = $('meta[name="csrf-token"]').attr('content');
+
         var currentUrl = window.location.href;
 
         $.ajax({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
             type: 'POST',
-            url: 'lead.php',
-            data: "a=submit&dpt=" + dep + "&nom=" + nom + "&prenom=" + prenom + "&tel=" + tel + "&mobile=" + mobile + "&habitation=" + habitation + "&urgence=" + urgence + "&foyer=" + foyer + "&superficie=" + superficie,
+            url: '/lead',
+            data: "a=submit&dpt=" + dep + "&nom=" + nom + "&prenom=" + prenom + "&tel=" + tel + "&mobile=" + mobile + "&habitation=" + habitation + "&urgence=" + urgence + "&foyer=" + foyer + "&superficie=" + superficie + "&_token=" + token,
             success: function (response) {
+                console.log(response);
+                console.log(currentUrl);
                 if (response == 1) {
-                    if (currentUrl == '2020.html') {
-                        window.location.href = "remerciement0cee.html?type=2020"
-                    } else if (currentUrl == 'pompe.html') {
-                        window.location.href = "remerciement6c6f.html?type=pompe"
-                    } else {
-                        window.location.href = "remerciement.html"
-                    }
+                    window.location.href = currentUrl + 'remerciement';
                 } else {
                     alert('There is a problem processing the request. Please try again');
                     $('.nextStep2').html('Vérifier mon éligibilité');
@@ -248,14 +250,14 @@ $(".contactForm").click(function () {
 
         err = 1;
     }
-	if ($('#email').val() === "") {
+    if ($('#email').val() === "") {
         $('#email').css('border-color', 'red');
-		$('#email').before('<div class="error-msg text-danger font-weight-bold">Veuillez saisir votre Email.</div>');
+        $('#email').before('<div class="error-msg text-danger font-weight-bold">Veuillez saisir votre Email.</div>');
         err = 1;
     }
-	if ($('#subject').val() === "") {
+    if ($('#subject').val() === "") {
         $('#subject').css('border-color', 'red');
-		$('#subject').before('<div class="error-msg text-danger font-weight-bold">Veuillez saisir votre Sujet.</div>');
+        $('#subject').before('<div class="error-msg text-danger font-weight-bold">Veuillez saisir votre Sujet.</div>');
         err = 1;
     }
 
@@ -263,7 +265,7 @@ $(".contactForm").click(function () {
     if (err === 0) {
         $('.contactForm').html('Envoi en cours...');
         $('.contactForm').prop('disabled', true);
-        
+
         var nom = $('#nom').val();
         var prenom = $('#prenom').val();
         var email = $('#email').val();
@@ -279,8 +281,8 @@ $(".contactForm").click(function () {
             data: "a=submit& &nom=" + nom + "&prenom=" + prenom + "&tel =" + tel + "&mobile=" + mobile + "&subject=" + subject + "&email=" + email,
             success: function (response) {
                 if (response == 1) {
-                     $('.form-step3').removeClass('active');
-                     $('.finish-step').addClass('active');
+                    $('.form-step3').removeClass('active');
+                    $('.finish-step').addClass('active');
                 } else {
                     alert('There is a problem processing the request. Please try again');
                     $('.nextStep2').html('Vérifier mon éligibilité');
