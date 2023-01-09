@@ -24,4 +24,8 @@ Route::get('/remerciement', [PageController::class, 'remerciement'])->name('reme
 
 Auth::routes();
 
+Route::get('register', function() {
+    return "Access Denied";
+});
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
