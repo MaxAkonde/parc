@@ -511,8 +511,8 @@
             <div class="text-center">
                 <p class="text-center">
                     <small>
-                        Tous droits réservés - Aides PAC National 2023 - <a href="#">Mentions
-                            Légales</a> - <a href="#">Nous Contacter</a>
+                        Tous droits réservés - Aides PAC National 2023 - <a href="{{ route('mentionslegales') }}">Mentions
+                            Légales</a> - <a href="{{ route('nouscontacter') }}">Nous Contacter</a>
                     </small>
                 </p>
             </div>

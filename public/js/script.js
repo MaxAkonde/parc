@@ -276,18 +276,22 @@ $(".contactForm").click(function () {
         var currentUrl = window.location.href;
 
         $.ajax({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
             type: 'POST',
-            url: 'contact.php',
+            url: '/contact',
             data: "a=submit& &nom=" + nom + "&prenom=" + prenom + "&tel =" + tel + "&mobile=" + mobile + "&subject=" + subject + "&email=" + email,
             success: function (response) {
-                if (response == 1) {
-                    $('.form-step3').removeClass('active');
-                    $('.finish-step').addClass('active');
-                } else {
-                    alert('There is a problem processing the request. Please try again');
-                    $('.nextStep2').html('Vérifier mon éligibilité');
-                    $('.nextStep2').prop('disabled', false);
-                }
+                console.log(response);
+                // if (response == 1) {
+                //     $('.form-step3').removeClass('active');
+                //     $('.finish-step').addClass('active');
+                // } else {
+                //     alert('There is a problem processing the request. Please try again');
+                //     $('.nextStep2').html('Vérifier mon éligibilité');
+                //     $('.nextStep2').prop('disabled', false);
+                // }
             }
         });
 

@@ -29,4 +29,19 @@ class PageController extends Controller
     {
         return view('remerciement');
     }
+
+    public function mentionslegales()
+    {
+        return view('mentionslegales');
+    }
+
+    public function nouscontacter()
+    {
+        return view('nouscontacter');
+    }
+
+    public function contact(Request $request)
+    {
+        return 'test';
+    }
 }
