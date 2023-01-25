@@ -90,18 +90,14 @@
                         transition énergétique ? Installez une pompe à chaleur en 2023 et bénéficiez des aides
                         financières de l'Etat, comme l'Eco-prêt à taux zéro, le crédit d'impôt pour la transition
                         énergétique ou la TVA à taux réduit !
-                        
                     </div>
 
 
                     <div class="header-text">
-                        Avec ces aides, vous pourrez financer votre installation
-                        de manière avantageuse tout en réduisant votre empreinte écologique. N'attendez plus, faites le
-                        choix éco-responsable d'une pompe à chaleur dès maintenant !
+                        <b>Réduire son empreinte écologique, c'est maintenant avec la pompe à chaleur !</b>
                         <BR><BR>
                         <img src="images/top.png" style="width:250px" alt="logo">
                     </div>
-
 
 
 

@@ -71,12 +71,8 @@
                         
                     </div>
 
-
                     <div class="header-text">
-                        Avec ces aides, vous pourrez financer votre installation
-                        de manière avantageuse tout en réduisant votre empreinte écologique. N'attendez plus, faites le
-                        choix éco-responsable d'une pompe à chaleur dès maintenant !
-                        
+                        <b>Réduire son empreinte écologique, c'est maintenant avec la pompe à chaleur !</b>
                     </div>
                 </div>
 
