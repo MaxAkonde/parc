@@ -64,8 +64,19 @@
                     </div>
 
                     <div class="header-text">
-                        Votre Pompe à Chaleur subventionné jusqu'à 100% par l'état. Profitez en avant la fin du
-                        programme d'aide de l'année 2023.
+                        Vous voulez économiser de l'argent sur vos factures d'énergie tout en contribuant à l'effort de
+                        transition énergétique ? Installez une pompe à chaleur en 2023 et bénéficiez des aides
+                        financières de l'Etat, comme l'Eco-prêt à taux zéro, le crédit d'impôt pour la transition
+                        énergétique ou la TVA à taux réduit !
+                        
+                    </div>
+
+
+                    <div class="header-text">
+                        Avec ces aides, vous pourrez financer votre installation
+                        de manière avantageuse tout en réduisant votre empreinte écologique. N'attendez plus, faites le
+                        choix éco-responsable d'une pompe à chaleur dès maintenant !
+                        
                     </div>
                 </div>
 
