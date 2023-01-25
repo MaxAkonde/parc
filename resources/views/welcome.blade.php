@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/logo.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.html">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.html">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -45,6 +45,26 @@
             }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
         })(window, document, "script", "../bat.bing.com/bat.js", "uetq");
     </script>
+
+<script type='text/javascript'>
+    window._tfa = window._tfa || [];
+    window._tfa.push({
+        notify: 'event',
+        name: 'page_view',
+        id: 1519899
+    });
+    ! function(t, f, a, x) {
+        if (!document.getElementById(x)) {
+            t.async = 1;
+            t.src = a;
+            t.id = x;
+            f.parentNode.insertBefore(t, f);
+        }
+    }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        '//cdn.taboola.com/libtrc/unip/1519899/tfa.js',
+        'tb_tfa_script');
+</script>
 </head>
 
 <body>
@@ -511,7 +531,8 @@
             <div class="text-center">
                 <p class="text-center">
                     <small>
-                        Tous droits réservés - Aides PAC National 2023 - <a href="{{ route('mentionslegales') }}">Mentions
+                        Tous droits réservés - Aides PAC National 2023 - <a
+                            href="{{ route('mentionslegales') }}">Mentions
                             Légales</a> - <a href="{{ route('nouscontacter') }}">Nous Contacter</a>
                     </small>
                 </p>
