@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.html">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.html">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pompe à Chaleur 2020</title>
+    <title>Pompe à Chaleur {{ date('Y') }}</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -140,7 +140,7 @@
                         </a>
                         <div class="header-title">
                             <span class="title-main">Pompe à Chaleur</span> <br />
-                            <span class="sub-title">Aides et Subventions 2023</span>
+                            <span class="sub-title">Aides et Subventions {{ date('Y') }}</span>
                         </div>
 
 
@@ -148,7 +148,7 @@
 
                     <div class="header-text">
                         Votre Pompe à Chaleur subventionné jusqu'à 100% par l'état. Profitez en avant la fin du
-                        programme d'aide de l'année 2023.
+                        programme d'aide de l'année {{ date('Y') }}.
                     </div>
                 </div>
 
@@ -214,7 +214,7 @@
                     <div id="main-form" class="main-form">
 
                         <div class="form-steper-title">
-                            Aides et Subventions Pompe à Chaleur 2023. <br />
+                            Aides et Subventions Pompe à Chaleur {{ date('Y') }}. <br />
                             Testez votre éligibilité en 3 étapes.
                         </div>
                         <div class="form-progressbar">

@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.html">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.html">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pompe à Chaleur 2023</title>
+    <title>Pompe à Chaleur {{ date('Y') }}3</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -58,7 +58,7 @@
                         </a>
                         <div class="header-title">
                             <span class="title-main">Pompe à Chaleur</span> <br />
-                            <span class="sub-title">Aides et Subventions 2023</span>
+                            <span class="sub-title">Aides et Subventions {{ date('Y') }}3</span>
                         </div>
 
 
@@ -66,7 +66,7 @@
 
                     <div class="header-text">
                         Vous voulez économiser de l'argent sur vos factures d'énergie tout en contribuant à l'effort de
-                        transition énergétique ? Installez une pompe à chaleur en 2023 et bénéficiez des aides
+                        transition énergétique ? Installez une pompe à chaleur en {{ date('Y') }}3 et bénéficiez des aides
                         financières de l'Etat, comme l'Eco-prêt à taux zéro, le crédit d'impôt pour la transition
                         énergétique ou la TVA à taux réduit !
                         
@@ -199,7 +199,7 @@
             <div class="text-center">
                 <p class="text-center">
                     <small>
-                        Tous droits réservés - Aides PAC National 2023 - <a href="{{ route('mentionslegales') }}">Mentions
+                        Tous droits réservés - Aides PAC National {{ date('Y') }}3 - <a href="{{ route('mentionslegales') }}">Mentions
                             Légales</a> - <a href="{{ route('nouscontacter') }}">Nous Contacter</a>
                     </small>
                 </p>

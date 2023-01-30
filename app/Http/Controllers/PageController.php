@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Info;
+use App\Mail\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
 {
@@ -42,6 +44,9 @@ class PageController extends Controller
 
     public function contact(Request $request)
     {
-        return 'test';
+        Mail::to('techs.fr007@gmail.com')
+            ->queue(new Contact($request->except('_token')));
+            
+        return 1;
     }
 }

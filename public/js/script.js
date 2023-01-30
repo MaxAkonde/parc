@@ -284,14 +284,14 @@ $(".contactForm").click(function () {
             data: "a=submit& &nom=" + nom + "&prenom=" + prenom + "&tel =" + tel + "&mobile=" + mobile + "&subject=" + subject + "&email=" + email,
             success: function (response) {
                 console.log(response);
-                // if (response == 1) {
-                //     $('.form-step3').removeClass('active');
-                //     $('.finish-step').addClass('active');
-                // } else {
-                //     alert('There is a problem processing the request. Please try again');
-                //     $('.nextStep2').html('Vérifier mon éligibilité');
-                //     $('.nextStep2').prop('disabled', false);
-                // }
+                if (response == 1) {
+                    $('.form-step3').removeClass('active');
+                    $('.finish-step').addClass('active');
+                } else {
+                    alert('There is a problem processing the request. Please try again');
+                    $('.nextStep2').html('Vérifier mon éligibilité');
+                    $('.nextStep2').prop('disabled', false);
+                }
             }
         });
 
