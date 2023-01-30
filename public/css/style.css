@@ -9,9 +9,9 @@ body {
 
 
 .header {
-    background: url(../images/header.svg) no-repeat;
+    background: url(../images/header.png) no-repeat;
     width: 100%;
-    background-position: top center;
+    background-position: end center;
     min-height: 383px;
     background-size: cover;
 }
