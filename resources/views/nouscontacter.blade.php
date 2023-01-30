@@ -8,14 +8,59 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.html">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.html">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pompe à Chaleur {{ date('Y') }}3</title>
+    <title>Pompe à Chaleur {{ date('Y') }}</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&amp;display=swap"
         rel="stylesheet">
+    <script type='text/javascript'>
+        window._tfa = window._tfa || [];
+        window._tfa.push({
+            notify: 'event',
+            name: 'page_view',
+            id: 1519899
+        });
+        ! function(t, f, a, x) {
+            if (!document.getElementById(x)) {
+                t.async = 1;
+                t.src = a;
+                t.id = x;
+                f.parentNode.insertBefore(t, f);
+            }
+        }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            '//cdn.taboola.com/libtrc/unip/1519899/tfa.js',
+            'tb_tfa_script');
+    </script>
 
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1910845309256073');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1910845309256073&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
     <!-- Global site tag (gtag.js) - Google Ads: 773561122 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-773561122"></script>
     <script>
@@ -58,7 +103,7 @@
                         </a>
                         <div class="header-title">
                             <span class="title-main">Pompe à Chaleur</span> <br />
-                            <span class="sub-title">Aides et Subventions {{ date('Y') }}3</span>
+                            <span class="sub-title">Aides et Subventions {{ date('Y') }}</span>
                         </div>
 
 
@@ -66,10 +111,11 @@
 
                     <div class="header-text">
                         Vous voulez économiser de l'argent sur vos factures d'énergie tout en contribuant à l'effort de
-                        transition énergétique ? Installez une pompe à chaleur en {{ date('Y') }}3 et bénéficiez des aides
+                        transition énergétique ? Installez une pompe à chaleur en {{ date('Y') }} et bénéficiez des
+                        aides
                         financières de l'Etat, comme l'Eco-prêt à taux zéro, le crédit d'impôt pour la transition
                         énergétique ou la TVA à taux réduit !
-                        
+
                     </div>
 
                     <div class="header-text">
@@ -199,7 +245,8 @@
             <div class="text-center">
                 <p class="text-center">
                     <small>
-                        Tous droits réservés - Aides PAC National {{ date('Y') }}3 - <a href="{{ route('mentionslegales') }}">Mentions
+                        Tous droits réservés - Aides PAC National {{ date('Y') }} - <a
+                            href="{{ route('mentionslegales') }}">Mentions
                             Légales</a> - <a href="{{ route('nouscontacter') }}">Nous Contacter</a>
                     </small>
                 </p>
