@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&amp;display=swap"
         rel="stylesheet">
+    <!-- Taboola Pixel Code -->
     <script type='text/javascript'>
         window._tfa = window._tfa || [];
         window._tfa.push({
             notify: 'event',
             name: 'page_view',
-            id: 1519899
+            id: 1521815
         });
         ! function(t, f, a, x) {
             if (!document.getElementById(x)) {
@@ -30,9 +31,10 @@
             }
         }(document.createElement('script'),
             document.getElementsByTagName('script')[0],
-            '//cdn.taboola.com/libtrc/unip/1519899/tfa.js',
+            '//cdn.taboola.com/libtrc/unip/1521815/tfa.js',
             'tb_tfa_script');
     </script>
+    <!-- End of Taboola Pixel Code -->
 
     <!-- Meta Pixel Code -->
     <script>
