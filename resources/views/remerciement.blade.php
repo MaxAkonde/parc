@@ -36,6 +36,25 @@
     </script>
     <!-- End of Taboola Pixel Code -->
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11086036446"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-11086036446');
+    </script>
+
+    <!-- Event snippet for Envoi de formulaire pour prospects conversion page -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-11086036446/PPb_CMb_g4sYEN77naYp'
+        });
+    </script>
+
     <!-- Meta Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
