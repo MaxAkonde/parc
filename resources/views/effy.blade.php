@@ -7,7 +7,7 @@
     <title>Effy, n°1 de la rénovation énergétique en ligne</title>
     <base>
     <meta name="description"
-        content="Demandez votre prime énergie Effy pour financer vos travaux de rénovation énergétique. Effy vous accompagne dans l’isolation de votre habitat et dans l’obtention des aides financières liées à votre projet. 93% de nos clients sont satisfaits. Réalisez des économies d’énergie avec Effy !">
+        content="Demandez votre prime énergie Effy pour financer vos travaux de rénovation énergétique. Effy vous accompagne dans l’isolation de votre habitat et dans l’obtention des aides financières liées à votre projet. 93% de nos clients sont satisfaits. Réalisez des économies d’énergie avec France aides PAC !">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1, IE=11">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -6987,9 +6987,9 @@
                             <div _ngcontent-sc119="" class="header-v3__wrapper-logo-link">
                                 <nscf-logo _ngcontent-sc119="" _nghost-sc118="">
                                     <div _ngcontent-sc118="" class="logo"><a _ngcontent-sc118=""
-                                            href="index.html"><img _ngcontent-sc118=""
+                                            href="#"><img _ngcontent-sc118=""
                                                 alt="Spécialiste rénovation énergétique"
-                                                src="https://bo.effy.fr/sites/default/files/2019-10/Effy_logo_blue.svg"
+                                                src="{{ asset('assets/logo.svg') }}" style="width: 55px"
                                                 title="Spécialiste rénovation énergétique"></a></div>
                                 </nscf-logo>
                                 <nscf-new-phone-block _ngcontent-sc119=""
@@ -7084,7 +7084,7 @@
                                             <div _ngcontent-sc250="" class="row">
                                                 <div _ngcontent-sc250="" class="col-12 col-md-10 col-lg-7">
                                                     <h1 _ngcontent-sc250="" class="nhp__title">Faire des économies
-                                                        d’énergie, c’est simple avec <span class="no-wrap">Effy
+                                                        d’énergie, avec <span class="no-wrap">France aides PAC
                                                             !</span></h1>
                                                     <div _ngcontent-sc250="" class="nhp__sub-title"><span
                                                             _ngcontent-sc250=""
@@ -7294,8 +7294,8 @@
                     <div _ngcontent-sc16="" class="new-footer__container new-footer__wrapper">
                         <div _ngcontent-sc16="" class="new-footer__row">
                             <div _ngcontent-sc16="" class="new-footer__col-12 new-footer__col-lg-4">
-                                <div _ngcontent-sc16="" class="new-footer__wrapper-title"><img src="{{ asset('assets/logo-effy-blanc.svg') }}"
-                                        applazyload="" class="new-footer__logo" alt="logo site Effy">
+                                <div _ngcontent-sc16="" class="new-footer__wrapper-title"><img src="{{ asset('assets/logo.svg') }}"
+                                        applazyload="" style="width: 100px" class="new-footer__logo" alt="logo site Effy">
                                     <!---->
                                 </div><template _ngcontent-sc16="" class="ng-star-inserted"></template>
                                 <div _ngcontent-sc16="" class="new-footer__wrapper-social-content ng-star-inserted">
