@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#b9f8d3}.cls-2{fill:#fff}.cls-5{fill:#003250}
+        </style>
+    </defs>
+    <g id="isolation-green" transform="translate(-815 -2072)">
+        <rect id="Rectangle_5186" width="36" height="36" class="cls-1" rx="18" transform="translate(829 2086)"/>
+        <g id="icon_isolate_cta" transform="translate(815 2072)">
+            <path id="Tracé_28829" d="M5.271 17.093v19.2h27.61V16.059L18.922 2.29z" class="cls-2" transform="translate(.712 .31)"/>
+            <path id="Rectangle_5145" d="M0 0H10.216V14.189H0z" class="cls-2" transform="translate(14.757 22.703)"/>
+            <path id="Tracé_28492" d="M5.334 16.719h27.888L19.153 2.677z" class="cls-2" transform="translate(.721 .362)"/>
+            <path id="Tracé_28485" d="M-6-17.73L7.941-32 21.6-18.6l-.37 19.9h-7.82l-.571-13.567H3.112L2.7 1.3H-6z" class="cls-1" transform="translate(12.054 35.459)"/>
+            <g id="Groupe_8252">
+                <path id="Rectangle_2754" fill="none" d="M0 0H40V40H0z"/>
+            </g>
+            <path id="Soustraction_5" d="M33.2 35.5l-12.838-.02v-1.708h11.976V14.328L19.843 1.859l-13.1 13.1v18.81h9.079v1.7l-9.943-.016-.864-.864v-17.9L1.211 20.5 0 19.286 19.238 0h1.211l19.108 19.114-1.211 1.211-4.281-4.272v18.584l-.865.863z" class="cls-5" transform="translate(.173 2.249)"/>
+            <path id="Tracé_28486" d="M0 .453v13.2l.865.865 10.032.043.865-.865V0h-1.73v12.832H1.73V.368z" class="cls-5" transform="rotate(180 13.013 18.443)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg id="Fenetre_gradient" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #74f0a7;
+      }
+
+      .cls-3 {
+        fill: #003250;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_2504" data-name="Rectangle 2504" class="cls-1" width="19.891" height="20"/>
+  <rect id="Rectangle_2505" data-name="Rectangle 2505" class="cls-2" width="6.28" height="12.801" transform="translate(2.954 2.232)"/>
+  <rect id="Rectangle_2506" data-name="Rectangle 2506" class="cls-2" width="6.28" height="12.801" transform="translate(10.963 2.232)"/>
+  <g id="Groupe_7832" data-name="Groupe 7832" transform="translate(0.022 0.066)">
+    <path id="Tracé_25683" data-name="Tracé 25683" class="cls-3" d="M19.643,16.6h-.783L1.885,16.58l.022-15.4H18.468l-.022,13.217h.871L19.338.738,18.9.3H1.471L1.036.738,1.014,16.6H.557l-.435.438L.1,19.775l.435.438,19.086.022.435-.438.022-2.735ZM.971,19.337v-1.86H19.186v1.86Z" transform="translate(-0.1 -0.3)"/>
+    <path id="Tracé_25684" data-name="Tracé 25684" class="cls-3" d="M47.922,7.738,47.9,20.976l.438.438h6.586l.438-.438V7.738L54.924,7.3H48.36Zm6.565.438V20.539l-5.711-.022V15.943h.7V12.53h-.7V8.175h5.711Z" transform="translate(-37.55 -5.768)"/>
+    <path id="Tracé_25685" data-name="Tracé 25685" class="cls-3" d="M10.922,7.738,10.9,20.976l.438.438h6.586l.438-.438.022-13.239L17.946,7.3H11.36Zm.875.438h5.711l-.022,12.363-5.711-.022Z" transform="translate(-8.537 -5.768)"/>
+  </g>
+</svg>

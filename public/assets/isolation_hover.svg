@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .cls-1{fill:#b9f8d3}.cls-2{fill:#fff}.cls-5{fill:#003250}
+        </style>
+    </defs>
+    <g id="isolation_hover" transform="translate(-815 -2218)">
+        <circle id="Ellipse_424" cx="18" cy="18" r="18" class="cls-1" transform="translate(815 2218)"/>
+        <g id="icon_isolate" transform="translate(822.945 2225.945)">
+            <path id="Tracé_28829" d="M5.271 9.732v9.653h13.88V9.212L12.134 2.29z" class="cls-2" transform="translate(-2.263 -.983)"/>
+            <path id="Rectangle_5145" d="M0 0H5.136V7.133H0z" class="cls-2" transform="translate(7.419 11.413)"/>
+            <path id="Tracé_28492" d="M5.334 9.737h14.02l-7.073-7.06z" class="cls-2" transform="translate(-2.29 -1.149)"/>
+            <path id="Tracé_28485" d="M-6-24.826L1.008-32l6.683 7.092v9.647H3.76l-.287-6.821h-4.892l-.209 6.821H-6z" class="cls-1" transform="translate(9.044 33.739)"/>
+            <g id="Groupe_8252">
+                <path id="Rectangle_2754" fill="none" d="M0 0H20V20H0z" transform="translate(.055 .055)"/>
+            </g>
+            <path id="Soustraction_5" d="M16.692 17.848l-6.454-.01v-.859h6.02V7.2L9.976.935 3.39 7.522v9.457h4.565v.856l-5-.008-.435-.435v-9L.609 10.3 0 9.7 9.672 0h.609l9.606 9.609-.609.609-2.152-2.148v9.343l-.434.434z" class="cls-5" transform="translate(.087 1.13)"/>
+            <path id="Tracé_28486" d="M0 .228v6.636l.435.436 5.044.022.435-.435V0h-.87v6.451H.87V.185z" class="cls-5" transform="rotate(180 6.542 9.272)"/>
+        </g>
+    </g>
+</svg>

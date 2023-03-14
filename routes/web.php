@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('effy');
 });
 
 Route::post('/lead', [PageController::class, 'lead'])->name('lead');

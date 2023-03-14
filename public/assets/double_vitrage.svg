@@ -1,0 +1,33 @@
+<svg id="Double_vitrage" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #74f0a7;
+      }
+
+      .cls-3 {
+        fill: #003250;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        stroke: #003250;
+        stroke-linecap: round;
+        stroke-linejoin: bevel;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_2592" data-name="Rectangle 2592" class="cls-1" width="26" height="26"/>
+  <rect id="Rectangle_2593" data-name="Rectangle 2593" class="cls-2" width="2.736" height="17.152" transform="translate(5.304 8.181)"/>
+  <g id="Groupe_7976" data-name="Groupe 7976" transform="translate(5.304 0.621)">
+    <path id="Tracé_25804" data-name="Tracé 25804" class="cls-2" d="M21.508,9.761H18.8L24.329,2.2h2.736Z" transform="translate(-18.8 -2.2)"/>
+  </g>
+  <path id="Tracé_25805" data-name="Tracé 25805" class="cls-3" d="M25.856.651,25.63.2H22.894l-.451.226L16.913,7.986,17,8.127l-.2.2V25.477l.564.564H20.1l.339-.339.169.028,4.345-8.379a.568.568,0,0,0-1.016-.508l-3.3,6.319V8.494l4.429-6.009v4.2a.564.564,0,1,0,1.128,0V.764ZM17.928,8.889h1.608V24.913H17.928Zm6.15-6.968L19.79,7.761H18.464l4.711-6.432H24.5Z" transform="translate(-12.061 -0.144)"/>
+  <path id="Tracé_25806" data-name="Tracé 25806" class="cls-4" d="M73.2,43.2" transform="translate(-52.549 -31.013)"/>
+  <path id="Tracé_25807" data-name="Tracé 25807" class="cls-3" d="M50.73,12.9a.566.566,0,0,0,.564-.564V.764L50.956.651,50.73.2H47.994l-.451.226L42.013,7.986l.085.141-.2.2V25.477l.564.564H45.2l.339-.339.169.028L51.21,15.1a.568.568,0,1,0-1.016-.508l-4.457,8.576V8.494l4.429-6.009V12.3A.573.573,0,0,0,50.73,12.9ZM48.276,1.328H49.6l-.423.564L44.89,7.761H43.564ZM43.028,8.889h1.608V24.913H43.028Z" transform="translate(-30.079 -0.144)"/>
+</svg>
