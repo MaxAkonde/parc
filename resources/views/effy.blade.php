@@ -6966,9 +6966,98 @@
             }
         }
     </style>
-    
+
     <link rel="stylesheet" href="{{ asset('assets/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
+
+    <!-- Taboola Pixel Code -->
+    <script type='text/javascript'>
+        window._tfa = window._tfa || [];
+        window._tfa.push({
+            notify: 'event',
+            name: 'page_view',
+            id: 1521815
+        });
+        ! function(t, f, a, x) {
+            if (!document.getElementById(x)) {
+                t.async = 1;
+                t.src = a;
+                t.id = x;
+                f.parentNode.insertBefore(t, f);
+            }
+        }(document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            '//cdn.taboola.com/libtrc/unip/1521815/tfa.js',
+            'tb_tfa_script');
+    </script>
+    <!-- End of Taboola Pixel Code -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11086036446"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-11086036446');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1910845309256073');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1910845309256073&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 773561122 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-773561122"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'AW-773561122');
+    </script>
+
+    <script>
+        (function(w, d, t, r, u) {
+            var f, n, i;
+            w[u] = w[u] || [], f = function() {
+                var o = {
+                    ti: "17401941"
+                };
+                o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
+            }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function() {
+                var s = this.readyState;
+                s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
+            }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
+        })(window, document, "script", "../bat.bing.com/bat.js", "uetq");
+    </script>
 </head>
 
 <body>
@@ -7053,9 +7142,9 @@
                             <div _ngcontent-sc119="" class="header-v3__right-buttons">
                                 <!---->
                                 <nscf-header-cta-button _ngcontent-sc119="" _nghost-sc108=""
-                                    class="effy ng-star-inserted"><a _ngcontent-sc108=""
-                                        href="#" rel=""
-                                        target="_self" class="nscf-btn cta-primary big-btn ng-star-inserted">
+                                    class="effy ng-star-inserted"><a _ngcontent-sc108="" href="#"
+                                        rel="" target="_self"
+                                        class="nscf-btn cta-primary big-btn ng-star-inserted">
                                         <div _ngcontent-sc108="" class="effy-btn-content">
                                             <!----><span _ngcontent-sc108="" class="effy-btn-content-text">DEMANDER UN
                                                 DEVIS</span>
@@ -7191,8 +7280,8 @@
                                 <div _ngcontent-sc247=""
                                     class="col-12 col-md-10 col-lg-12 offers__body-offer ng-star-inserted justify-content-center"
                                     style="visibility:visible;">
-                                    <div
-                                        class="form-container d-flex flex-column justify-content-center align-items-center" style="margin-top: 6em">
+                                    <div class="form-container d-flex flex-column justify-content-center align-items-center"
+                                        style="margin-top: 6em">
                                         <div
                                             class="form-box text-center d-flex flex-column justify-content-center align-items-center">
                                             <h2 class="py-3">TESTEZ VOTRE ÉLIGIBILITÉ</h2>
@@ -7257,7 +7346,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <button type="submit" id="addcontact" style="width: 100%; font-size:17px"
+                                                    <button type="submit" id="addcontact"
+                                                        style="width: 100%; font-size:17px"
                                                         class="btn btn-primary shadow btn-lg btn-green mt-3">
                                                         Valider
                                                     </button>
@@ -7294,8 +7384,9 @@
                     <div _ngcontent-sc16="" class="new-footer__container new-footer__wrapper">
                         <div _ngcontent-sc16="" class="new-footer__row">
                             <div _ngcontent-sc16="" class="new-footer__col-12 new-footer__col-lg-4">
-                                <div _ngcontent-sc16="" class="new-footer__wrapper-title"><img src="{{ asset('assets/logo.svg') }}"
-                                        applazyload="" style="width: 100px" class="new-footer__logo" alt="logo site Effy">
+                                <div _ngcontent-sc16="" class="new-footer__wrapper-title"><img
+                                        src="{{ asset('assets/logo.svg') }}" applazyload="" style="width: 100px"
+                                        class="new-footer__logo" alt="logo site Effy">
                                     <!---->
                                 </div><template _ngcontent-sc16="" class="ng-star-inserted"></template>
                                 <div _ngcontent-sc16="" class="new-footer__wrapper-social-content ng-star-inserted">
@@ -7318,8 +7409,7 @@
                                 <!---->
                                 <div _ngcontent-sc16="" class="new-footer__wrapper-cta">
                                     <p _ngcontent-sc16="" class="new-footer__cta-subject">Un projet ?</p><a
-                                        _ngcontent-sc16="" class="new-footer__cta"
-                                        href="#">
+                                        _ngcontent-sc16="" class="new-footer__cta" href="#">
                                         <nscf-link-button _ngcontent-sc16="" _nghost-sc15=""
                                             class="effy link-button-cta"></nscf-link-button><span _ngcontent-sc16=""
                                             class="new-footer__cta-text"> Demander un
@@ -7336,14 +7426,14 @@
                                     <div _ngcontent-sc16="" class="new-footer__column ng-star-inserted">
                                         <div _ngcontent-sc16="" class="ng-star-inserted">
                                             <p _ngcontent-sc16=""
-                                                class="new-footer__column-link--black ng-star-inserted"> Contactez-nous </p>
+                                                class="new-footer__column-link--black ng-star-inserted"> Contactez-nous
+                                            </p>
                                             <!---->
                                             <!---->
                                         </div>
                                         <div _ngcontent-sc16="" class="ng-star-inserted">
                                             <!----><a _ngcontent-sc16=""
-                                                class="new-footer__column-link ng-star-inserted"
-                                                href="#">
+                                                class="new-footer__column-link ng-star-inserted" href="#">
                                                 Contact </a>
                                             <!---->
                                         </div>
@@ -7352,14 +7442,14 @@
                                     <div _ngcontent-sc16="" class="new-footer__column ng-star-inserted">
                                         <div _ngcontent-sc16="" class="ng-star-inserted">
                                             <p _ngcontent-sc16=""
-                                                class="new-footer__column-link--black ng-star-inserted"> Confifentialité </p>
+                                                class="new-footer__column-link--black ng-star-inserted">
+                                                Confifentialité </p>
                                             <!---->
                                             <!---->
                                         </div>
                                         <div _ngcontent-sc16="" class="ng-star-inserted">
                                             <!----><a _ngcontent-sc16=""
-                                                class="new-footer__column-link ng-star-inserted"
-                                                href="#">
+                                                class="new-footer__column-link ng-star-inserted" href="#">
                                                 Mentions </a>
                                             <!---->
                                         </div>
@@ -7382,9 +7472,6 @@
     <script src="https://www.effy.fr/runtime.02aa762edbf345ed.js" type="module"></script>
     <script src="https://www.effy.fr/polyfills.7434627efa0625ae.js" type="module"></script>
     <script src="https://www.effy.fr/main.5d1498bddfef585e.js" type="module"></script>
-
-    <script type="text/javascript" src="../js.hsforms.net/forms/v2.js" defer=""></script>
-    <script type="text/javascript" src="../js.hs-scripts.com/7263985.js" defer=""></script>
 </body>
 
 </html>
