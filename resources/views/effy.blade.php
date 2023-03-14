@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Effy, n°1 de la rénovation énergétique en ligne</title>
+    <title>Pompe à Chaleur {{ date('Y') }}</title>
     <base>
     <meta name="description"
         content="Demandez votre prime énergie Effy pour financer vos travaux de rénovation énergétique. Effy vous accompagne dans l’isolation de votre habitat et dans l’obtention des aides financières liées à votre projet. 93% de nos clients sont satisfaits. Réalisez des économies d’énergie avec France aides PAC !">
@@ -26,8 +26,8 @@
         type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="style" href="https://www.effy.fr/common-assets/fonts/gilroy.css">
 
-    <link rel="shortcut icon" href="https://www.effy.fr/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="https://www.effy.fr/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/logo.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/logo.png') }}" type="image/x-icon">
     <link href="https://www.effy.fr/apple-touch-icon.png" rel="apple-touch-icon">
     <link href="https://www.effy.fr/apple-touch-icon.png-precomposed" rel="apple-touch-icon">
     <link href="https://www.effy.fr/apple-touch-icon-120x120.png" rel="apple-touch-icon">
