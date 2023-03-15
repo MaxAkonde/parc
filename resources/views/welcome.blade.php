@@ -126,6 +126,10 @@
                     </div>
 
                     <div class="header-text">
+                        <b>PROPRIÉTAIRE D'UNE MAISON ?</b>
+                    </div>
+
+                    <div class="header-text">
                         Bénéficiez du nouveau programme d'aide à la transition énergétique. Installez une pompe à
                         chaleur, un chauffe-eau et isolez votre habitation pour 1€ !
                     </div>
