@@ -158,7 +158,7 @@
                             <i class="fas fa-university"></i>
                         </div>
                         <div class="feature-text">
-                            Jusqu'à 10 500€ de Subventions et d'Aides d'État
+                            Jusqu'à 80 000€ de Subventions et Aides d'État.
                         </div>
 
                     </div>
@@ -169,7 +169,7 @@
                             <i class="fas fa-seedling"></i>
                         </div>
                         <div class="feature-text">
-                            Plus de 70% d'Économies d'Énergies
+                            Au moins 55% d'Économie d'Énergie.
                         </div>
 
                     </div>
@@ -180,7 +180,7 @@
                             <i class="fas fa-home"></i>
                         </div>
                         <div class="feature-text">
-                            Déjà 80 000 Chantiers Réalisés
+                            Une hausse de la valeur de votre bien allant de 5 à 25%
                         </div>
 
                     </div>
@@ -191,7 +191,7 @@
                             <i class="fas fa-toolbox"></i>
                         </div>
                         <div class="feature-text">
-                            Réseau d'Artisants 100% Certifiés "RGE"
+                            Réseau d'artisans 100% certifiés "RGE" Agréé par l'État
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                     <div id="main-form" class="main-form">
 
                         <div class="form-steper-title">
-                            L'État vous finance à 100% , Remplissez ce formulaire <br />
+                            L'État vous finance jusqu’à 100% , Remplissez ce formulaire <br />
                             Testez votre éligibilité en 3 étapes.
                         </div>
                         <div class="form-progressbar">
@@ -575,7 +575,7 @@
             <div class="text-center">
                 <p class="text-center">
                     <small>
-                        Tous droits réservés - Aides PAC National {{ date('Y') }} - <a
+                        Tous droits réservés - Aide PAC National {{ date('Y') }} - <a
                             href="{{ route('mentionslegales') }}">Mentions
                             Légales</a> - <a href="{{ route('nouscontacter') }}">Nous Contacter</a>
                     </small>
