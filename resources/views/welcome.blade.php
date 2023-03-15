@@ -118,18 +118,16 @@
                         </a>
                         <div class="header-title">
                             <span class="title-main">Pompe à Chaleur</span> <br />
-                            <span class="sub-title">Aides et Subventions Pompe à Chaleur {{ date('Y') }}.</span>
+                            <span class="sub-title">Programme de Rénovation énergétique
+                                Aides et subventions Rénovation énergétique globale {{ date('Y') }}.</span>
                         </div>
 
 
                     </div>
 
                     <div class="header-text">
-                        Vous voulez économiser de l'argent sur vos factures d'énergie tout en contribuant à l'effort de
-                        transition énergétique ? Installez une pompe à chaleur en {{ date('Y') }} et bénéficiez des
-                        aides
-                        financières de l'Etat, comme l'Eco-prêt à taux zéro, le crédit d'impôt pour la transition
-                        énergétique ou la TVA à taux réduit !
+                        Bénéficiez du nouveau programme d'aide à la transition énergétique. Installez une pompe à
+                        chaleur, un chauffe-eau et isolez votre habitation pour 1€ !
                     </div>
 
 
