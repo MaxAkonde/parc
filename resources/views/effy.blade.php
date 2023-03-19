@@ -7142,7 +7142,7 @@
                             <div _ngcontent-sc119="" class="header-v3__right-buttons">
                                 <!---->
                                 <nscf-header-cta-button _ngcontent-sc119="" _nghost-sc108=""
-                                    class="effy ng-star-inserted"><a _ngcontent-sc108="" href="#"
+                                    class="effy ng-star-inserted"><a _ngcontent-sc108="" href="#mainForm"
                                         rel="" target="_self"
                                         class="nscf-btn cta-primary big-btn ng-star-inserted">
                                         <div _ngcontent-sc108="" class="effy-btn-content">
@@ -7270,7 +7270,7 @@
                     </div>
                     <div _ngcontent-sc251="" class="offer spacing-block-nhp">
                         <div _ngcontent-sc251="" class="offer__bg"></div>
-                        <div _ngcontent-sc251="" class="container">
+                        <div _ngcontent-sc251="" id="mainForm" class="container">
                             <acq-offers _ngcontent-sc251="" _nghost-sc247="">
                                 <div _ngcontent-sc247="" class="offers">
                                     <h2 _ngcontent-sc247="" class="offers__title">Vous voulez faire des économies
@@ -7409,7 +7409,7 @@
                                 <!---->
                                 <div _ngcontent-sc16="" class="new-footer__wrapper-cta">
                                     <p _ngcontent-sc16="" class="new-footer__cta-subject">Un projet ?</p><a
-                                        _ngcontent-sc16="" class="new-footer__cta" href="#">
+                                        _ngcontent-sc16="" class="new-footer__cta" href="#mainForm">
                                         <nscf-link-button _ngcontent-sc16="" _nghost-sc15=""
                                             class="effy link-button-cta"></nscf-link-button><span _ngcontent-sc16=""
                                             class="new-footer__cta-text"> Demander un
