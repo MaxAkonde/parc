@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.792" height="43.866" viewBox="0 0 49.792 43.866">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #E5F9FF;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #003250;
+        stroke: #003250;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #83e000;
+      }
+
+      .cls-6 {
+        fill: #fefe00;
+      }
+
+      .cls-7 {
+        fill: #f2bb5b;
+      }
+
+      .cls-8 {
+        fill: #ff5971;
+      }
+    </style>
+  </defs>
+  <g id="Picto_DPE" data-name="Picto DPE" transform="translate(-171.248 -159)">
+    <g id="Cercle">
+      <path id="Cercle_bleu" data-name="Cercle bleu" class="cls-1" d="M17.866,0A17.866,17.866,0,1,1,0,17.866,17.866,17.866,0,0,1,17.866,0Z" transform="translate(185.309 167.134)"/>
+    </g>
+    <g id="Maison">
+      <path id="Fond_maison" data-name="Fond maison" class="cls-2" d="M104.314,38.663l8.192-8.466,20.54,15.371v1.364h-5.987V56.8H97.01V38.663Z" transform="translate(78.404 133.202)"/>
+      <path id="Maison-2" data-name="Maison" class="cls-3" d="M24.349,30.09H25.9v-.48c0-2.7.009-5.4-.01-8.1,0-.411.121-.5.5-.493,1.582.021,3.165.009,4.747.009h.466c0-.918.015-1.8-.015-2.683,0-.138-.193-.289-.325-.4q-4.254-3.627-8.514-7.246L10.334.127C10.3.094,10.253.065,10.169,0L0,8.65,1.021,9.879,10.16,2.113c.114.087.218.158.313.239q9.641,8.2,19.282,16.4a.507.507,0,0,1,.208.669h-.437c-1.6,0-3.191.007-4.786-.006-.307,0-.427.067-.426.407.011,3.3.006,6.6.008,9.905,0,.115.016.23.026.368" transform="translate(181.436 160.837)"/>
+    </g>
+    <g id="Barres">
+      <rect id="Rectangle_8395" data-name="Rectangle 8395" class="cls-4" width="39" height="31" transform="translate(179 159)"/>
+      <rect id="Rectangle_8391" data-name="Rectangle 8391" class="cls-5" width="4.202" height="5.267" transform="translate(176.516 165.031) rotate(90)"/>
+      <rect id="Rectangle_8392" data-name="Rectangle 8392" class="cls-6" width="4.202" height="9.806" transform="translate(181.055 172.035) rotate(90)"/>
+      <rect id="Rectangle_8393" data-name="Rectangle 8393" class="cls-7" width="4.202" height="15.409" transform="translate(186.66 179.038) rotate(90)"/>
+      <rect id="Rectangle_8394" data-name="Rectangle 8394" class="cls-8" width="4.202" height="21.012" transform="translate(192.262 186.042) rotate(90)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg id="Combles_perdus" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #74f0a7;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #003250;
+      }
+    </style>
+  </defs>
+  <path id="Tracé_25811" data-name="Tracé 25811" class="cls-1" d="M26.633,62.758,24.476,60.6H3.557L1.4,62.758Z" transform="translate(-1.002 -43.392)"/>
+  <g id="Groupe_7979" data-name="Groupe 7979">
+    <rect id="Rectangle_2596" data-name="Rectangle 2596" class="cls-2" width="25.989" height="26"/>
+  </g>
+  <path id="Tracé_25812" data-name="Tracé 25812" class="cls-3" d="M23.9,32.85l-.653-.625V25.751l-.568-.568H19.046l-.568.568v1.675L13.426,22.4h-.795L4.172,30.834l.795.8L13,23.593l9.083,9.087H1.987v.341L0,35.008l.4.965H25.6l.4-.965Zm-4.286-6.531h2.5v4.771l-2.5-2.5ZM1.788,34.838,2.81,33.815H23.275L24.3,34.838Z" transform="translate(0 -16.039)"/>
+</svg>

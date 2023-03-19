@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'gilroyblack';
+  src: 
+    url('./gilroy/gilroy-black.woff2') format('woff2'),
+    url('./gilroy/gilroy-black.woff') format('woff'),
+    url('./gilroy/gilroy-black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gilroybold';
+  src: 
+    url('./gilroy/gilroy-bold.woff2') format('woff2'),
+    url('./gilroy/gilroy-bold.woff') format('woff'),
+    url('./gilroy/gilroy-bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gilroylight';
+  src: 
+    url('./gilroy/gilroy-light.woff2') format('woff2'),
+    url('./gilroy/gilroy-light.woff') format('woff'),
+    url('./gilroy/gilroy-light.ttf') format('truetype'),
+    url('./gilroy/gilroy-light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gilroymedium';
+  src: 
+    url('./gilroy/gilroy-medium.woff2') format('woff2'),
+    url('./gilroy/gilroy-medium.woff') format('woff'),
+    url('./gilroy/gilroy-medium.ttf') format('truetype'),
+    url('./gilroy/gilroy-medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gilroyregular';
+  src: 
+    url('./gilroy/gilroy-regular.woff2') format('woff2'),
+    url('./gilroy/gilroy-regular.woff') format('woff'),
+    url('./gilroy/gilroy-regular.ttf') format('truetype'),
+    url('./gilroy/gilroy-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 
+Declare variables the following way in the SCSS 
+in order to use the fonts:
+
+$font-black: gilroyblack, Arial, sans-serif;
+$font-bold: gilroybold, Arial, sans-serif;
+$font-light: gilroylight, Arial, sans-serif;
+$font-medium: gilroymedium, Arial, sans-serif;
+$font-regular: gilroyregular, Arial, sans-serif;
+
+
+Example of usage :
+
+h1{ font-family : $font-bold} 
+
+
+In the rare cases italic is needed just add the 
+regular font-style property with italic value: 
+
+"font-style : italic"
+*/

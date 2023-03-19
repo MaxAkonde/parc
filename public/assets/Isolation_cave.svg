@@ -1,0 +1,22 @@
+<svg id="Isolation_cave" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #74f0a7;
+      }
+
+      .cls-3 {
+        fill: #003250;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_7994" data-name="Groupe 7994">
+    <rect id="Rectangle_2624" data-name="Rectangle 2624" class="cls-1" width="26" height="26"/>
+  </g>
+  <path id="Tracé_25829" data-name="Tracé 25829" class="cls-2" d="M22.9,64.6v1.72h1.691v1.663h1.55v1.663h1.55v1.466h8.231V64.6Z" transform="translate(-16.445 -46.39)"/>
+  <path id="Tracé_25830" data-name="Tracé 25830" class="cls-3" d="M25.906,19.234H20.155V12.413H19.028v6.822H15.673V12.807l-.564-.564h-4.4l-.564.564v6.427H6.822V10.27L13.08,4.012l9.049,9.021.789-.789L13.5,2.8h-.789L3.185,12.3l.789.789,1.72-1.72v7.837H0v1.128H5.722v1.494l.564.564H7.357v1.043L7.921,24H8.992v1.128l.564.564h1.071v1.071l.564.564h8.457l.564-.564v-6.4h5.751V19.234ZM11.3,13.371h3.27v5.863H11.3ZM11.727,26.2V25.126l-.564-.564H10.092V23.491l-.564-.564H8.457V21.884l-.564-.564H6.822v-.93H19V26.2H11.727Z" transform="translate(0 -2.011)"/>
+</svg>
