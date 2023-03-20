@@ -7285,7 +7285,7 @@
                                         <div
                                             class="form-box text-center d-flex flex-column justify-content-center align-items-center">
                                             <h2 class="py-3">TESTEZ VOTRE ÉLIGIBILITÉ</h2>
-                                            <form id="contactfrom" class="w-100" action="#" method="POST">
+                                            <form id="contactfrom" class="w-100" action="{{ route('lead') }}" method="POST">
                                                 @csrf
                                                 <div class="form-group">
                                                     <select name="product" id="product" class="form-control"
@@ -7299,8 +7299,8 @@
                                                     <select name="habitation" id="habitation" class="form-control"
                                                         required="">
                                                         <option value="no-option">Type d'habitation</option>
-                                                        <option value="maison">Maison</option>
-                                                        <option value="appartement">Appartement</option>
+                                                        <option value="Maison">Maison</option>
+                                                        <option value="Appartement">Appartement</option>
                                                     </select>
                                                 </div>
                                                 <div class="form-group">
@@ -7308,21 +7308,21 @@
                                                         required="">
                                                         <option value="">Année de construction de mon logement
                                                         </option>
-                                                        <option value="0">Moins de 2 ans</option>
-                                                        <option value="1">Entre 2 ans et 15 ans</option>
-                                                        <option value="2">Plus de 15 ans</option>
+                                                        <option value="Moins de 2 ans">Moins de 2 ans</option>
+                                                        <option value="Entre 2 ans et 15 ans">Entre 2 ans et 15 ans</option>
+                                                        <option value="Plus de 15 ans"></option>
                                                     </select>
                                                 </div>
                                                 <div class="form-group">
                                                     <select name="mode" id="mode" class="form-control"
                                                         required="">
                                                         <option value="">Mode de chauffage</option>
-                                                        <option value="electrique"> Électrique</option>
-                                                        <option value="fioul">Fioul</option>
-                                                        <option value="gaz">Gaz</option>
-                                                        <option value="bois">Bois</option>
-                                                        <option value="charbon">Charbon</option>
-                                                        <option value="pompeChaleur">Pompe à chaleur </option>
+                                                        <option value="Électrique"> Électrique</option>
+                                                        <option value="Fioul">Fioul</option>
+                                                        <option value="Gaz">Gaz</option>
+                                                        <option value="Bois">Bois</option>
+                                                        <option value="Charbon">Charbon</option>
+                                                        <option value="Pompe à chaleur">Pompe à chaleur </option>
                                                     </select>
                                                 </div>
                                                 <div class="form-group">

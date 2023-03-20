@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('effy');
-});
+})->name('index');
 
-//Route::post('/lead', [PageController::class, 'lead'])->name('lead');
+Route::post('/lead', [PageController::class, 'lead'])->name('lead');
 
 //Route::get('/mentionslegales', [PageController::class, 'mentionslegales'])->name('mentionslegales');
 
