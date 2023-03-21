@@ -25,7 +25,7 @@ Route::post('/lead', [PageController::class, 'lead'])->name('lead');
 //Route::get('/nouscontacter', [PageController::class, 'nouscontacter'])->name('nouscontacter');
 //Route::post('/contact', [PageController::class, 'contact'])->name('contact');
 
-//Route::get('/remerciement', [PageController::class, 'remerciement'])->name('remerciement');
+Route::get('/remerciement', [PageController::class, 'remerciement'])->name('remerciement');
 
 Auth::routes();
 

@@ -32,7 +32,7 @@ class PageController extends Controller
         $info->save();
 
         //return 1;
-        return redirect()->route('index');
+        return redirect()->route('remerciement');
     }
 
     public function remerciement()
