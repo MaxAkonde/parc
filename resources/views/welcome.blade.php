@@ -117,7 +117,7 @@
                             <img src="images/logo.png" alt="logo" />
                         </a>
                         <div class="header-title">
-                            <span class="title-main">Pompe à Chaleur</span> <br />
+                            <span class="title-main">Rénovation énergétique globale</span> <br />
                             <span class="sub-title">Programme de Rénovation énergétique
                                 Aides et subventions Rénovation énergétique globale {{ date('Y') }}.</span>
                         </div>
