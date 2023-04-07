@@ -20,6 +20,7 @@
                                 <th>Urgence</th>
                                 <th>Foyer</th>
                                 <th>Superficie</th>
+                                <th>Date & Heure</th>
                             </thead>
                             <tbody>
                                 @foreach ($infos as $info)
@@ -33,6 +34,9 @@
                                         <td>{{ $info->urgence }}</td>
                                         <td>{{ $info->foyer }}</td>
                                         <td>{{ $info->superficie }}</td>
+                                        <td>
+                                            {{ $info->created_at->format('d-m-Y') }} à {{ $info->created_at->format('H:i') }}
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>
